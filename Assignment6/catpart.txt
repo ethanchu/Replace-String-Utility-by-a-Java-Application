@@ -18,11 +18,11 @@
   File Size:
     Empty.						[single][property emptyfile] 				
     Not empty.					
-  Number of occurrences of the pattern in the file:
+  Number of occurrences of the [from]String in the file:
     None.						[single][if !emptyfile] [property noOccurences]	
     One.						[if !emptyfile][property oneOccurence]		
     Many.						[if !emptyfile]
-  Position of the pattern in the file:
+  Position of the [from]String in the file:
     Beginning.						[if !noOccurences && !emptyfile]		
     End.						[if oneOccurence && !emptyfile]
     Any.						[if !noOccurences && !emptyfile]
