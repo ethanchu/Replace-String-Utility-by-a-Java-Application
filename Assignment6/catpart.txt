@@ -12,16 +12,16 @@
   Presence of enclosing quotes:
     Not enclosed.					[if patternlengthgt1 && !whitespace]
     Enclosed.						[if patternlengthgt1 && whitespace]
-    Incorrect.					[error]
+    Incorrect.						[error]
 
 # File
   File Size:
     Empty.						[single][property emptyfile] 				
     Not empty.					
   Number of occurrences of the pattern in the file:
-    None.						[single][if !emptyfile && patternlengthgt1] [property noOccurences]	
-    One.						[if !emptyfile && patternlengthgt1][property oneOccurence]		
-    Many.						[if !emptyfile && patternlengthgt1][property manyOccurences]
+    None.						[single][if !emptyfile] [property noOccurences]	
+    One.						[if !emptyfile][property oneOccurence]		
+    Many.						[if !emptyfile]
   Position of the pattern in the file:
     Beginning.						[if !noOccurences && !emptyfile]		
     End.						[if oneOccurence && !emptyfile]
