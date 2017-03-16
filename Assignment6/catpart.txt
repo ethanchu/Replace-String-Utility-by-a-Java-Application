@@ -1,8 +1,11 @@
 # String
   Length of [from]String:
-    Empty.						[single]
+    Empty.						[error]
     Many.						[property patternlengthgt1]
-    Longer than the file.				[single]			
+    Longer than the file.				[single]
+  Length of [to]String:
+    Empty.						[error]
+    Many.							
   Whitespace in [from] and [to]String:
     Yes.						[if patternlengthgt1][property whitespace]
     No.							[if patternlengthgt1]
