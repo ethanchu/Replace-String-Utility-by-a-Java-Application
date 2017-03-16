@@ -27,9 +27,10 @@ Test Case 7  		<error>  (follows [if])
    Dash (-) used in OPT :  No
 
 
-Test Case 8  		(Key = 2.1.2.2.2.1.2.1.0.0.0.)
+Test Case 8  		(Key = 2.1.1.2.2.2.1.2.1.0.0.0.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -41,9 +42,10 @@ Test Case 8  		(Key = 2.1.2.2.2.1.2.1.0.0.0.)
    Dash (-) used in OPT                             :  <n/a>
 
 
-Test Case 9  		(Key = 2.1.2.2.2.1.2.2.1.0.1.)
+Test Case 9  		(Key = 2.1.1.2.2.2.1.2.2.1.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -55,9 +57,10 @@ Test Case 9  		(Key = 2.1.2.2.2.1.2.2.1.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 10 		(Key = 2.1.2.2.2.1.2.2.2.0.1.)
+Test Case 10 		(Key = 2.1.1.2.2.2.1.2.2.2.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -69,9 +72,10 @@ Test Case 10 		(Key = 2.1.2.2.2.1.2.2.2.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 11 		(Key = 2.1.2.2.2.1.2.2.3.0.1.)
+Test Case 11 		(Key = 2.1.1.2.2.2.1.2.2.3.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -83,9 +87,10 @@ Test Case 11 		(Key = 2.1.2.2.2.1.2.2.3.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 12 		(Key = 2.1.2.2.2.1.2.3.0.1.1.)
+Test Case 12 		(Key = 2.1.1.2.2.2.1.2.3.0.1.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -97,9 +102,10 @@ Test Case 12 		(Key = 2.1.2.2.2.1.2.3.0.1.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 13 		(Key = 2.1.2.2.2.1.2.3.0.2.1.)
+Test Case 13 		(Key = 2.1.1.2.2.2.1.2.3.0.2.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -111,9 +117,10 @@ Test Case 13 		(Key = 2.1.2.2.2.1.2.3.0.2.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 14 		(Key = 2.1.2.2.2.2.2.1.0.0.0.)
+Test Case 14 		(Key = 2.1.1.2.2.2.2.2.1.0.0.0.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -125,9 +132,10 @@ Test Case 14 		(Key = 2.1.2.2.2.2.2.1.0.0.0.)
    Dash (-) used in OPT                             :  <n/a>
 
 
-Test Case 15 		(Key = 2.1.2.2.2.2.2.2.1.0.1.)
+Test Case 15 		(Key = 2.1.1.2.2.2.2.2.2.1.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -139,9 +147,10 @@ Test Case 15 		(Key = 2.1.2.2.2.2.2.2.1.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 16 		(Key = 2.1.2.2.2.2.2.2.2.0.1.)
+Test Case 16 		(Key = 2.1.1.2.2.2.2.2.2.2.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -153,9 +162,10 @@ Test Case 16 		(Key = 2.1.2.2.2.2.2.2.2.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 17 		(Key = 2.1.2.2.2.2.2.2.3.0.1.)
+Test Case 17 		(Key = 2.1.1.2.2.2.2.2.2.3.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -167,9 +177,10 @@ Test Case 17 		(Key = 2.1.2.2.2.2.2.2.3.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 18 		(Key = 2.1.2.2.2.2.2.3.0.1.1.)
+Test Case 18 		(Key = 2.1.1.2.2.2.2.2.3.0.1.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -181,9 +192,10 @@ Test Case 18 		(Key = 2.1.2.2.2.2.2.3.0.1.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 19 		(Key = 2.1.2.2.2.2.2.3.0.2.1.)
+Test Case 19 		(Key = 2.1.1.2.2.2.2.2.3.0.2.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -195,9 +207,10 @@ Test Case 19 		(Key = 2.1.2.2.2.2.2.3.0.2.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 20 		(Key = 2.1.2.2.2.3.2.1.0.0.0.)
+Test Case 20 		(Key = 2.1.1.2.2.2.3.2.1.0.0.0.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -209,9 +222,10 @@ Test Case 20 		(Key = 2.1.2.2.2.3.2.1.0.0.0.)
    Dash (-) used in OPT                             :  <n/a>
 
 
-Test Case 21 		(Key = 2.1.2.2.2.3.2.2.1.0.1.)
+Test Case 21 		(Key = 2.1.1.2.2.2.3.2.2.1.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -223,9 +237,10 @@ Test Case 21 		(Key = 2.1.2.2.2.3.2.2.1.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 22 		(Key = 2.1.2.2.2.3.2.2.2.0.1.)
+Test Case 22 		(Key = 2.1.1.2.2.2.3.2.2.2.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -237,9 +252,10 @@ Test Case 22 		(Key = 2.1.2.2.2.3.2.2.2.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 23 		(Key = 2.1.2.2.2.3.2.2.3.0.1.)
+Test Case 23 		(Key = 2.1.1.2.2.2.3.2.2.3.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -251,9 +267,10 @@ Test Case 23 		(Key = 2.1.2.2.2.3.2.2.3.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 24 		(Key = 2.1.2.2.2.3.2.3.0.1.1.)
+Test Case 24 		(Key = 2.1.1.2.2.2.3.2.3.0.1.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -265,9 +282,10 @@ Test Case 24 		(Key = 2.1.2.2.2.3.2.3.0.1.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 25 		(Key = 2.1.2.2.2.3.2.3.0.2.1.)
+Test Case 25 		(Key = 2.1.1.2.2.2.3.2.3.0.2.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -279,9 +297,10 @@ Test Case 25 		(Key = 2.1.2.2.2.3.2.3.0.2.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 26 		(Key = 2.1.2.2.3.1.2.1.0.0.0.)
+Test Case 26 		(Key = 2.1.1.2.2.3.1.2.1.0.0.0.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -293,9 +312,10 @@ Test Case 26 		(Key = 2.1.2.2.3.1.2.1.0.0.0.)
    Dash (-) used in OPT                             :  <n/a>
 
 
-Test Case 27 		(Key = 2.1.2.2.3.1.2.2.1.0.1.)
+Test Case 27 		(Key = 2.1.1.2.2.3.1.2.2.1.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -307,9 +327,10 @@ Test Case 27 		(Key = 2.1.2.2.3.1.2.2.1.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 28 		(Key = 2.1.2.2.3.1.2.2.2.0.1.)
+Test Case 28 		(Key = 2.1.1.2.2.3.1.2.2.2.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -321,9 +342,10 @@ Test Case 28 		(Key = 2.1.2.2.3.1.2.2.2.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 29 		(Key = 2.1.2.2.3.1.2.2.3.0.1.)
+Test Case 29 		(Key = 2.1.1.2.2.3.1.2.2.3.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -335,9 +357,10 @@ Test Case 29 		(Key = 2.1.2.2.3.1.2.2.3.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 30 		(Key = 2.1.2.2.3.1.2.3.0.1.1.)
+Test Case 30 		(Key = 2.1.1.2.2.3.1.2.3.0.1.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -349,9 +372,10 @@ Test Case 30 		(Key = 2.1.2.2.3.1.2.3.0.1.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 31 		(Key = 2.1.2.2.3.1.2.3.0.2.1.)
+Test Case 31 		(Key = 2.1.1.2.2.3.1.2.3.0.2.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -363,9 +387,10 @@ Test Case 31 		(Key = 2.1.2.2.3.1.2.3.0.2.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 32 		(Key = 2.1.2.2.3.3.2.1.0.0.0.)
+Test Case 32 		(Key = 2.1.1.2.2.3.3.2.1.0.0.0.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -377,9 +402,10 @@ Test Case 32 		(Key = 2.1.2.2.3.3.2.1.0.0.0.)
    Dash (-) used in OPT                             :  <n/a>
 
 
-Test Case 33 		(Key = 2.1.2.2.3.3.2.2.1.0.1.)
+Test Case 33 		(Key = 2.1.1.2.2.3.3.2.2.1.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -391,9 +417,10 @@ Test Case 33 		(Key = 2.1.2.2.3.3.2.2.1.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 34 		(Key = 2.1.2.2.3.3.2.2.2.0.1.)
+Test Case 34 		(Key = 2.1.1.2.2.3.3.2.2.2.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -405,9 +432,10 @@ Test Case 34 		(Key = 2.1.2.2.3.3.2.2.2.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 35 		(Key = 2.1.2.2.3.3.2.2.3.0.1.)
+Test Case 35 		(Key = 2.1.1.2.2.3.3.2.2.3.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -419,9 +447,10 @@ Test Case 35 		(Key = 2.1.2.2.3.3.2.2.3.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 36 		(Key = 2.1.2.2.3.3.2.3.0.1.1.)
+Test Case 36 		(Key = 2.1.1.2.2.3.3.2.3.0.1.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -433,9 +462,10 @@ Test Case 36 		(Key = 2.1.2.2.3.3.2.3.0.1.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 37 		(Key = 2.1.2.2.3.3.2.3.0.2.1.)
+Test Case 37 		(Key = 2.1.1.2.2.3.3.2.3.0.2.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  Yes
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -447,9 +477,10 @@ Test Case 37 		(Key = 2.1.2.2.3.3.2.3.0.2.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 38 		(Key = 2.2.1.2.2.1.2.1.0.0.0.)
+Test Case 38 		(Key = 2.2.1.1.2.2.1.2.1.0.0.0.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -461,9 +492,10 @@ Test Case 38 		(Key = 2.2.1.2.2.1.2.1.0.0.0.)
    Dash (-) used in OPT                             :  <n/a>
 
 
-Test Case 39 		(Key = 2.2.1.2.2.1.2.2.1.0.1.)
+Test Case 39 		(Key = 2.2.1.1.2.2.1.2.2.1.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -475,9 +507,10 @@ Test Case 39 		(Key = 2.2.1.2.2.1.2.2.1.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 40 		(Key = 2.2.1.2.2.1.2.2.2.0.1.)
+Test Case 40 		(Key = 2.2.1.1.2.2.1.2.2.2.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -489,9 +522,10 @@ Test Case 40 		(Key = 2.2.1.2.2.1.2.2.2.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 41 		(Key = 2.2.1.2.2.1.2.2.3.0.1.)
+Test Case 41 		(Key = 2.2.1.1.2.2.1.2.2.3.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -503,9 +537,10 @@ Test Case 41 		(Key = 2.2.1.2.2.1.2.2.3.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 42 		(Key = 2.2.1.2.2.1.2.3.0.1.1.)
+Test Case 42 		(Key = 2.2.1.1.2.2.1.2.3.0.1.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -517,9 +552,10 @@ Test Case 42 		(Key = 2.2.1.2.2.1.2.3.0.1.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 43 		(Key = 2.2.1.2.2.1.2.3.0.2.1.)
+Test Case 43 		(Key = 2.2.1.1.2.2.1.2.3.0.2.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -531,9 +567,10 @@ Test Case 43 		(Key = 2.2.1.2.2.1.2.3.0.2.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 44 		(Key = 2.2.1.2.2.2.2.1.0.0.0.)
+Test Case 44 		(Key = 2.2.1.1.2.2.2.2.1.0.0.0.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -545,9 +582,10 @@ Test Case 44 		(Key = 2.2.1.2.2.2.2.1.0.0.0.)
    Dash (-) used in OPT                             :  <n/a>
 
 
-Test Case 45 		(Key = 2.2.1.2.2.2.2.2.1.0.1.)
+Test Case 45 		(Key = 2.2.1.1.2.2.2.2.2.1.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -559,9 +597,10 @@ Test Case 45 		(Key = 2.2.1.2.2.2.2.2.1.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 46 		(Key = 2.2.1.2.2.2.2.2.2.0.1.)
+Test Case 46 		(Key = 2.2.1.1.2.2.2.2.2.2.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -573,9 +612,10 @@ Test Case 46 		(Key = 2.2.1.2.2.2.2.2.2.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 47 		(Key = 2.2.1.2.2.2.2.2.3.0.1.)
+Test Case 47 		(Key = 2.2.1.1.2.2.2.2.2.3.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -587,9 +627,10 @@ Test Case 47 		(Key = 2.2.1.2.2.2.2.2.3.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 48 		(Key = 2.2.1.2.2.2.2.3.0.1.1.)
+Test Case 48 		(Key = 2.2.1.1.2.2.2.2.3.0.1.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -601,9 +642,10 @@ Test Case 48 		(Key = 2.2.1.2.2.2.2.3.0.1.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 49 		(Key = 2.2.1.2.2.2.2.3.0.2.1.)
+Test Case 49 		(Key = 2.2.1.1.2.2.2.2.3.0.2.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -615,9 +657,10 @@ Test Case 49 		(Key = 2.2.1.2.2.2.2.3.0.2.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 50 		(Key = 2.2.1.2.2.3.2.1.0.0.0.)
+Test Case 50 		(Key = 2.2.1.1.2.2.3.2.1.0.0.0.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -629,9 +672,10 @@ Test Case 50 		(Key = 2.2.1.2.2.3.2.1.0.0.0.)
    Dash (-) used in OPT                             :  <n/a>
 
 
-Test Case 51 		(Key = 2.2.1.2.2.3.2.2.1.0.1.)
+Test Case 51 		(Key = 2.2.1.1.2.2.3.2.2.1.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -643,9 +687,10 @@ Test Case 51 		(Key = 2.2.1.2.2.3.2.2.1.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 52 		(Key = 2.2.1.2.2.3.2.2.2.0.1.)
+Test Case 52 		(Key = 2.2.1.1.2.2.3.2.2.2.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -657,9 +702,10 @@ Test Case 52 		(Key = 2.2.1.2.2.3.2.2.2.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 53 		(Key = 2.2.1.2.2.3.2.2.3.0.1.)
+Test Case 53 		(Key = 2.2.1.1.2.2.3.2.2.3.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -671,9 +717,10 @@ Test Case 53 		(Key = 2.2.1.2.2.3.2.2.3.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 54 		(Key = 2.2.1.2.2.3.2.3.0.1.1.)
+Test Case 54 		(Key = 2.2.1.1.2.2.3.2.3.0.1.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -685,9 +732,10 @@ Test Case 54 		(Key = 2.2.1.2.2.3.2.3.0.1.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 55 		(Key = 2.2.1.2.2.3.2.3.0.2.1.)
+Test Case 55 		(Key = 2.2.1.1.2.2.3.2.3.0.2.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  One
@@ -699,9 +747,10 @@ Test Case 55 		(Key = 2.2.1.2.2.3.2.3.0.2.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 56 		(Key = 2.2.1.2.3.1.2.1.0.0.0.)
+Test Case 56 		(Key = 2.2.1.1.2.3.1.2.1.0.0.0.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -713,9 +762,10 @@ Test Case 56 		(Key = 2.2.1.2.3.1.2.1.0.0.0.)
    Dash (-) used in OPT                             :  <n/a>
 
 
-Test Case 57 		(Key = 2.2.1.2.3.1.2.2.1.0.1.)
+Test Case 57 		(Key = 2.2.1.1.2.3.1.2.2.1.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -727,9 +777,10 @@ Test Case 57 		(Key = 2.2.1.2.3.1.2.2.1.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 58 		(Key = 2.2.1.2.3.1.2.2.2.0.1.)
+Test Case 58 		(Key = 2.2.1.1.2.3.1.2.2.2.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -741,9 +792,10 @@ Test Case 58 		(Key = 2.2.1.2.3.1.2.2.2.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 59 		(Key = 2.2.1.2.3.1.2.2.3.0.1.)
+Test Case 59 		(Key = 2.2.1.1.2.3.1.2.2.3.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -755,9 +807,10 @@ Test Case 59 		(Key = 2.2.1.2.3.1.2.2.3.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 60 		(Key = 2.2.1.2.3.1.2.3.0.1.1.)
+Test Case 60 		(Key = 2.2.1.1.2.3.1.2.3.0.1.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -769,9 +822,10 @@ Test Case 60 		(Key = 2.2.1.2.3.1.2.3.0.1.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 61 		(Key = 2.2.1.2.3.1.2.3.0.2.1.)
+Test Case 61 		(Key = 2.2.1.1.2.3.1.2.3.0.2.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -783,9 +837,10 @@ Test Case 61 		(Key = 2.2.1.2.3.1.2.3.0.2.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 62 		(Key = 2.2.1.2.3.3.2.1.0.0.0.)
+Test Case 62 		(Key = 2.2.1.1.2.3.3.2.1.0.0.0.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -797,9 +852,10 @@ Test Case 62 		(Key = 2.2.1.2.3.3.2.1.0.0.0.)
    Dash (-) used in OPT                             :  <n/a>
 
 
-Test Case 63 		(Key = 2.2.1.2.3.3.2.2.1.0.1.)
+Test Case 63 		(Key = 2.2.1.1.2.3.3.2.2.1.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -811,9 +867,10 @@ Test Case 63 		(Key = 2.2.1.2.3.3.2.2.1.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 64 		(Key = 2.2.1.2.3.3.2.2.2.0.1.)
+Test Case 64 		(Key = 2.2.1.1.2.3.3.2.2.2.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -825,9 +882,10 @@ Test Case 64 		(Key = 2.2.1.2.3.3.2.2.2.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 65 		(Key = 2.2.1.2.3.3.2.2.3.0.1.)
+Test Case 65 		(Key = 2.2.1.1.2.3.3.2.2.3.0.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -839,9 +897,10 @@ Test Case 65 		(Key = 2.2.1.2.3.3.2.2.3.0.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 66 		(Key = 2.2.1.2.3.3.2.3.0.1.1.)
+Test Case 66 		(Key = 2.2.1.1.2.3.3.2.3.0.1.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many
@@ -853,9 +912,10 @@ Test Case 66 		(Key = 2.2.1.2.3.3.2.3.0.1.1.)
    Dash (-) used in OPT                             :  Yes
 
 
-Test Case 67 		(Key = 2.2.1.2.3.3.2.3.0.2.1.)
+Test Case 67 		(Key = 2.2.1.1.2.3.3.2.3.0.2.1.)
    Length of [from]String                           :  Many
    Whitespace in String                             :  No
+   Presence of quotes in the pattern                :  No
    Presence of enclosing quotes                     :  Not enclosed
    File Size                                        :  Not empty
    Number of occurrences of the pattern in the file :  Many

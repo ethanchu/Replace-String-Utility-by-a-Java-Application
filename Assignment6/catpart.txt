@@ -6,10 +6,13 @@
   Whitespace in String:
     Yes.						[if patternlengthgt1][property whitespace]
     No.							[if patternlengthgt1]
+  Presence of quotes in the pattern:
+    Yes							[if patternlengthgt1]
+    No.  						[if patternlengthgt1]
   Presence of enclosing quotes:
-      Not enclosed.					[if patternlengthgt1 && !whitespace]
-      Enclosed.						[if patternlengthgt1 && whitespace]
-      Incorrect.					[error]
+    Not enclosed.					[if patternlengthgt1 && !whitespace]
+    Enclosed.						[if patternlengthgt1 && whitespace]
+    Incorrect.					[error]
 
 # File
   File Size:
@@ -31,16 +34,16 @@
 
 # OPT
   Number of OPT opinion:
-    None.						[if !emptyfile][property noPreference]				
-    One.						[if !emptyfile][property onePreference]
-    Many.						[if !emptyfile][property ManyOpinion]
+    None.						[property noOpinion]				
+    One.						[property oneOpinion]
+    Many.						[property ManyOpinion]
   OPT category:
-    -f.							[if !emptyfile && onePreference]
-    -i.							[if !emptyfile && onePreference]
-    -w.							[if !emptyfile && onePreference]
+    -f.							[if oneOpinion]
+    -i.							[if oneOpinion]
+    -w.							[if oneOpinion]
   OPT argument order:
-    in order of (-f,-i,-w).				[if !emptyfile && ManyOpinion]
-    random order of (-f,-i,-w).				[if !emptyfile && ManyOpinion]
+    in order of (-f,-i,-w).				[if ManyOpinion]
+    random order of (-f,-i,-w).				[if ManyOpinion]
   Dash (-) used in OPT:
-    Yes.						[if !emptyfile && !noPreference]
-    No.							[if !emptyfile && !noPreference][error]	
+    Yes.						[if !noOpinion]
+    No.							[if !noOpinion][error]	
