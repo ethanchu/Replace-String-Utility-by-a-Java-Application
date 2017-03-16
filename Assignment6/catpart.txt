@@ -3,13 +3,13 @@
     Empty.						[single]
     Many.						[property patternlengthgt1]
     Longer than the file.				[single]			
-  Whitespace in String:
+  Whitespace in [from] and [to]String:
     Yes.						[if patternlengthgt1][property whitespace]
     No.							[if patternlengthgt1]
-  Presence of quotes in the pattern:
+  Presence of quotes in [from] and [to]String:
     Yes							[if patternlengthgt1]
     No.  						[if patternlengthgt1]
-  Presence of enclosing quotes:
+  Presence of enclosing quotes in [from] and [to]String:
     Not enclosed.					[if patternlengthgt1 && !whitespace]
     Enclosed.						[if patternlengthgt1 && whitespace]
     Incorrect.						[error]

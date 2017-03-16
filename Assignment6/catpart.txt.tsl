@@ -8,7 +8,7 @@ Test Case 2  		<single>
 
 
 Test Case 3  		<error>
-   Presence of enclosing quotes :  Incorrect
+   Presence of enclosing quotes in [from] and [to]String :  Incorrect
 
 
 Test Case 4  		<single>
@@ -29,9 +29,9 @@ Test Case 7  		<error>  (follows [if])
 
 Test Case 8  		(Key = 2.1.1.2.2.2.1.2.1.0.0.0.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Beginning
@@ -44,9 +44,9 @@ Test Case 8  		(Key = 2.1.1.2.2.2.1.2.1.0.0.0.)
 
 Test Case 9  		(Key = 2.1.1.2.2.2.1.2.2.1.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Beginning
@@ -59,9 +59,9 @@ Test Case 9  		(Key = 2.1.1.2.2.2.1.2.2.1.0.1.)
 
 Test Case 10 		(Key = 2.1.1.2.2.2.1.2.2.2.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Beginning
@@ -74,9 +74,9 @@ Test Case 10 		(Key = 2.1.1.2.2.2.1.2.2.2.0.1.)
 
 Test Case 11 		(Key = 2.1.1.2.2.2.1.2.2.3.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Beginning
@@ -89,9 +89,9 @@ Test Case 11 		(Key = 2.1.1.2.2.2.1.2.2.3.0.1.)
 
 Test Case 12 		(Key = 2.1.1.2.2.2.1.2.3.0.1.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Beginning
@@ -104,9 +104,9 @@ Test Case 12 		(Key = 2.1.1.2.2.2.1.2.3.0.1.1.)
 
 Test Case 13 		(Key = 2.1.1.2.2.2.1.2.3.0.2.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Beginning
@@ -119,9 +119,9 @@ Test Case 13 		(Key = 2.1.1.2.2.2.1.2.3.0.2.1.)
 
 Test Case 14 		(Key = 2.1.1.2.2.2.2.2.1.0.0.0.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  End
@@ -134,9 +134,9 @@ Test Case 14 		(Key = 2.1.1.2.2.2.2.2.1.0.0.0.)
 
 Test Case 15 		(Key = 2.1.1.2.2.2.2.2.2.1.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  End
@@ -149,9 +149,9 @@ Test Case 15 		(Key = 2.1.1.2.2.2.2.2.2.1.0.1.)
 
 Test Case 16 		(Key = 2.1.1.2.2.2.2.2.2.2.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  End
@@ -164,9 +164,9 @@ Test Case 16 		(Key = 2.1.1.2.2.2.2.2.2.2.0.1.)
 
 Test Case 17 		(Key = 2.1.1.2.2.2.2.2.2.3.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  End
@@ -179,9 +179,9 @@ Test Case 17 		(Key = 2.1.1.2.2.2.2.2.2.3.0.1.)
 
 Test Case 18 		(Key = 2.1.1.2.2.2.2.2.3.0.1.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  End
@@ -194,9 +194,9 @@ Test Case 18 		(Key = 2.1.1.2.2.2.2.2.3.0.1.1.)
 
 Test Case 19 		(Key = 2.1.1.2.2.2.2.2.3.0.2.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  End
@@ -209,9 +209,9 @@ Test Case 19 		(Key = 2.1.1.2.2.2.2.2.3.0.2.1.)
 
 Test Case 20 		(Key = 2.1.1.2.2.2.3.2.1.0.0.0.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Any
@@ -224,9 +224,9 @@ Test Case 20 		(Key = 2.1.1.2.2.2.3.2.1.0.0.0.)
 
 Test Case 21 		(Key = 2.1.1.2.2.2.3.2.2.1.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Any
@@ -239,9 +239,9 @@ Test Case 21 		(Key = 2.1.1.2.2.2.3.2.2.1.0.1.)
 
 Test Case 22 		(Key = 2.1.1.2.2.2.3.2.2.2.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Any
@@ -254,9 +254,9 @@ Test Case 22 		(Key = 2.1.1.2.2.2.3.2.2.2.0.1.)
 
 Test Case 23 		(Key = 2.1.1.2.2.2.3.2.2.3.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Any
@@ -269,9 +269,9 @@ Test Case 23 		(Key = 2.1.1.2.2.2.3.2.2.3.0.1.)
 
 Test Case 24 		(Key = 2.1.1.2.2.2.3.2.3.0.1.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Any
@@ -284,9 +284,9 @@ Test Case 24 		(Key = 2.1.1.2.2.2.3.2.3.0.1.1.)
 
 Test Case 25 		(Key = 2.1.1.2.2.2.3.2.3.0.2.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Any
@@ -299,9 +299,9 @@ Test Case 25 		(Key = 2.1.1.2.2.2.3.2.3.0.2.1.)
 
 Test Case 26 		(Key = 2.1.1.2.2.3.1.2.1.0.0.0.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Beginning
@@ -314,9 +314,9 @@ Test Case 26 		(Key = 2.1.1.2.2.3.1.2.1.0.0.0.)
 
 Test Case 27 		(Key = 2.1.1.2.2.3.1.2.2.1.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Beginning
@@ -329,9 +329,9 @@ Test Case 27 		(Key = 2.1.1.2.2.3.1.2.2.1.0.1.)
 
 Test Case 28 		(Key = 2.1.1.2.2.3.1.2.2.2.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Beginning
@@ -344,9 +344,9 @@ Test Case 28 		(Key = 2.1.1.2.2.3.1.2.2.2.0.1.)
 
 Test Case 29 		(Key = 2.1.1.2.2.3.1.2.2.3.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Beginning
@@ -359,9 +359,9 @@ Test Case 29 		(Key = 2.1.1.2.2.3.1.2.2.3.0.1.)
 
 Test Case 30 		(Key = 2.1.1.2.2.3.1.2.3.0.1.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Beginning
@@ -374,9 +374,9 @@ Test Case 30 		(Key = 2.1.1.2.2.3.1.2.3.0.1.1.)
 
 Test Case 31 		(Key = 2.1.1.2.2.3.1.2.3.0.2.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Beginning
@@ -389,9 +389,9 @@ Test Case 31 		(Key = 2.1.1.2.2.3.1.2.3.0.2.1.)
 
 Test Case 32 		(Key = 2.1.1.2.2.3.3.2.1.0.0.0.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Any
@@ -404,9 +404,9 @@ Test Case 32 		(Key = 2.1.1.2.2.3.3.2.1.0.0.0.)
 
 Test Case 33 		(Key = 2.1.1.2.2.3.3.2.2.1.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Any
@@ -419,9 +419,9 @@ Test Case 33 		(Key = 2.1.1.2.2.3.3.2.2.1.0.1.)
 
 Test Case 34 		(Key = 2.1.1.2.2.3.3.2.2.2.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Any
@@ -434,9 +434,9 @@ Test Case 34 		(Key = 2.1.1.2.2.3.3.2.2.2.0.1.)
 
 Test Case 35 		(Key = 2.1.1.2.2.3.3.2.2.3.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Any
@@ -449,9 +449,9 @@ Test Case 35 		(Key = 2.1.1.2.2.3.3.2.2.3.0.1.)
 
 Test Case 36 		(Key = 2.1.1.2.2.3.3.2.3.0.1.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Any
@@ -464,9 +464,9 @@ Test Case 36 		(Key = 2.1.1.2.2.3.3.2.3.0.1.1.)
 
 Test Case 37 		(Key = 2.1.1.2.2.3.3.2.3.0.2.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  Yes
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Enclosed
+   Whitespace in [from] and [to]String                   :  Yes
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Any
@@ -479,9 +479,9 @@ Test Case 37 		(Key = 2.1.1.2.2.3.3.2.3.0.2.1.)
 
 Test Case 38 		(Key = 2.2.1.1.2.2.1.2.1.0.0.0.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Beginning
@@ -494,9 +494,9 @@ Test Case 38 		(Key = 2.2.1.1.2.2.1.2.1.0.0.0.)
 
 Test Case 39 		(Key = 2.2.1.1.2.2.1.2.2.1.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Beginning
@@ -509,9 +509,9 @@ Test Case 39 		(Key = 2.2.1.1.2.2.1.2.2.1.0.1.)
 
 Test Case 40 		(Key = 2.2.1.1.2.2.1.2.2.2.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Beginning
@@ -524,9 +524,9 @@ Test Case 40 		(Key = 2.2.1.1.2.2.1.2.2.2.0.1.)
 
 Test Case 41 		(Key = 2.2.1.1.2.2.1.2.2.3.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Beginning
@@ -539,9 +539,9 @@ Test Case 41 		(Key = 2.2.1.1.2.2.1.2.2.3.0.1.)
 
 Test Case 42 		(Key = 2.2.1.1.2.2.1.2.3.0.1.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Beginning
@@ -554,9 +554,9 @@ Test Case 42 		(Key = 2.2.1.1.2.2.1.2.3.0.1.1.)
 
 Test Case 43 		(Key = 2.2.1.1.2.2.1.2.3.0.2.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Beginning
@@ -569,9 +569,9 @@ Test Case 43 		(Key = 2.2.1.1.2.2.1.2.3.0.2.1.)
 
 Test Case 44 		(Key = 2.2.1.1.2.2.2.2.1.0.0.0.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  End
@@ -584,9 +584,9 @@ Test Case 44 		(Key = 2.2.1.1.2.2.2.2.1.0.0.0.)
 
 Test Case 45 		(Key = 2.2.1.1.2.2.2.2.2.1.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  End
@@ -599,9 +599,9 @@ Test Case 45 		(Key = 2.2.1.1.2.2.2.2.2.1.0.1.)
 
 Test Case 46 		(Key = 2.2.1.1.2.2.2.2.2.2.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  End
@@ -614,9 +614,9 @@ Test Case 46 		(Key = 2.2.1.1.2.2.2.2.2.2.0.1.)
 
 Test Case 47 		(Key = 2.2.1.1.2.2.2.2.2.3.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  End
@@ -629,9 +629,9 @@ Test Case 47 		(Key = 2.2.1.1.2.2.2.2.2.3.0.1.)
 
 Test Case 48 		(Key = 2.2.1.1.2.2.2.2.3.0.1.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  End
@@ -644,9 +644,9 @@ Test Case 48 		(Key = 2.2.1.1.2.2.2.2.3.0.1.1.)
 
 Test Case 49 		(Key = 2.2.1.1.2.2.2.2.3.0.2.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  End
@@ -659,9 +659,9 @@ Test Case 49 		(Key = 2.2.1.1.2.2.2.2.3.0.2.1.)
 
 Test Case 50 		(Key = 2.2.1.1.2.2.3.2.1.0.0.0.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Any
@@ -674,9 +674,9 @@ Test Case 50 		(Key = 2.2.1.1.2.2.3.2.1.0.0.0.)
 
 Test Case 51 		(Key = 2.2.1.1.2.2.3.2.2.1.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Any
@@ -689,9 +689,9 @@ Test Case 51 		(Key = 2.2.1.1.2.2.3.2.2.1.0.1.)
 
 Test Case 52 		(Key = 2.2.1.1.2.2.3.2.2.2.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Any
@@ -704,9 +704,9 @@ Test Case 52 		(Key = 2.2.1.1.2.2.3.2.2.2.0.1.)
 
 Test Case 53 		(Key = 2.2.1.1.2.2.3.2.2.3.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Any
@@ -719,9 +719,9 @@ Test Case 53 		(Key = 2.2.1.1.2.2.3.2.2.3.0.1.)
 
 Test Case 54 		(Key = 2.2.1.1.2.2.3.2.3.0.1.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Any
@@ -734,9 +734,9 @@ Test Case 54 		(Key = 2.2.1.1.2.2.3.2.3.0.1.1.)
 
 Test Case 55 		(Key = 2.2.1.1.2.2.3.2.3.0.2.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  One
    Position of the [from]String in the file              :  Any
@@ -749,9 +749,9 @@ Test Case 55 		(Key = 2.2.1.1.2.2.3.2.3.0.2.1.)
 
 Test Case 56 		(Key = 2.2.1.1.2.3.1.2.1.0.0.0.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Beginning
@@ -764,9 +764,9 @@ Test Case 56 		(Key = 2.2.1.1.2.3.1.2.1.0.0.0.)
 
 Test Case 57 		(Key = 2.2.1.1.2.3.1.2.2.1.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Beginning
@@ -779,9 +779,9 @@ Test Case 57 		(Key = 2.2.1.1.2.3.1.2.2.1.0.1.)
 
 Test Case 58 		(Key = 2.2.1.1.2.3.1.2.2.2.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Beginning
@@ -794,9 +794,9 @@ Test Case 58 		(Key = 2.2.1.1.2.3.1.2.2.2.0.1.)
 
 Test Case 59 		(Key = 2.2.1.1.2.3.1.2.2.3.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Beginning
@@ -809,9 +809,9 @@ Test Case 59 		(Key = 2.2.1.1.2.3.1.2.2.3.0.1.)
 
 Test Case 60 		(Key = 2.2.1.1.2.3.1.2.3.0.1.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Beginning
@@ -824,9 +824,9 @@ Test Case 60 		(Key = 2.2.1.1.2.3.1.2.3.0.1.1.)
 
 Test Case 61 		(Key = 2.2.1.1.2.3.1.2.3.0.2.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Beginning
@@ -839,9 +839,9 @@ Test Case 61 		(Key = 2.2.1.1.2.3.1.2.3.0.2.1.)
 
 Test Case 62 		(Key = 2.2.1.1.2.3.3.2.1.0.0.0.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Any
@@ -854,9 +854,9 @@ Test Case 62 		(Key = 2.2.1.1.2.3.3.2.1.0.0.0.)
 
 Test Case 63 		(Key = 2.2.1.1.2.3.3.2.2.1.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Any
@@ -869,9 +869,9 @@ Test Case 63 		(Key = 2.2.1.1.2.3.3.2.2.1.0.1.)
 
 Test Case 64 		(Key = 2.2.1.1.2.3.3.2.2.2.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Any
@@ -884,9 +884,9 @@ Test Case 64 		(Key = 2.2.1.1.2.3.3.2.2.2.0.1.)
 
 Test Case 65 		(Key = 2.2.1.1.2.3.3.2.2.3.0.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Any
@@ -899,9 +899,9 @@ Test Case 65 		(Key = 2.2.1.1.2.3.3.2.2.3.0.1.)
 
 Test Case 66 		(Key = 2.2.1.1.2.3.3.2.3.0.1.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Any
@@ -914,9 +914,9 @@ Test Case 66 		(Key = 2.2.1.1.2.3.3.2.3.0.1.1.)
 
 Test Case 67 		(Key = 2.2.1.1.2.3.3.2.3.0.2.1.)
    Length of [from]String                                :  Many
-   Whitespace in String                                  :  No
-   Presence of quotes in the pattern                     :  No
-   Presence of enclosing quotes                          :  Not enclosed
+   Whitespace in [from] and [to]String                   :  No
+   Presence of quotes in [from] and [to]String           :  No
+   Presence of enclosing quotes in [from] and [to]String :  Not enclosed
    File Size                                             :  Not empty
    Number of occurrences of the [from]String in the file :  Many
    Position of the [from]String in the file              :  Any
