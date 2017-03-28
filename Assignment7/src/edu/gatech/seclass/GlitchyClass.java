@@ -14,8 +14,8 @@ public class GlitchyClass {
 
     public void glitchyMethod2(int input) {
         /*
-         If a test suite can achieves 100% branch coverage, it must can achieves 100% statement coverage.
-           Thus, it will reveals the fault, based on assumption(2). But it will cause conflict assertion in assumption(1)
+         If a test suite can achieves 100% branch coverage, it must can achieve 100% statement coverage.
+           Thus, it will reveals the fault, based on assumption(2). But it will cause the conflict with the assertion in assumption(1).
          */
     }
 
