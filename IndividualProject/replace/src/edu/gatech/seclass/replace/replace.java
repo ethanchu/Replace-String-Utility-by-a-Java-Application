@@ -2,6 +2,8 @@ package edu.gatech.seclass.replace;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 /**
@@ -10,11 +12,10 @@ import java.util.Scanner;
 public class replace {
 
     private boolean firchoice;
-    private int fircount;
     private boolean insenchoice;
-    private int insencount;
     private boolean wholechoice;
-    private int wholecount;
+    private Character delim;
+    private Character wildcar;
 
     private String fromside;
     private String toside;
@@ -23,32 +24,34 @@ public class replace {
 
     public replace () {
         firchoice = false;
-        fircount = 0;
         insenchoice = false;
-        insencount = 0;
         wholechoice = false;
-        wholecount = 0;
+        delim = null;
+        wildcar = null;
     }
 
-    public void setfir() throws Exception {
+    public void setfir(){
         firchoice = true;
-        fircount ++;
-        if (fircount > 1)
-            throw new Exception("multiple -f arguments");
     }
 
-    public void setinsen() throws Exception {
+    public void setinsen() {
         insenchoice = true;
-        insencount ++;
-        if (insencount > 1)
-            throw new Exception("multiple -i arguments");
     }
 
-    public void setwhole() throws Exception {
+    public void setwhole() {
         wholechoice = true;
-        wholecount ++;
-        if (wholecount > 1)
-            throw new Exception("multiple -w arguments");
+    }
+
+
+    public void setdelimiter(String delimiter) {
+        delim = delimiter.charAt(0);
+    }
+
+    public void setwildcard(String wildcard) {
+        wildcar = wildcard.charAt(0);
+        /*vildcarcount ++;
+        if (vildcarcount > 1)
+            throw new Exception("multiple -x arguments");*/
     }
 
     public void setconf (String from, String to, File file) {
@@ -61,51 +64,43 @@ public class replace {
         String procecontent = "";
         Scanner in = new Scanner(filepath);
         String content = in.useDelimiter("\\Z").next();
-        if (wholechoice) {
-            procecontent = replacewhole(content);
-        }
-        else procecontent = replacenonwhole(content);
+        addregex();
+        procecontent = replacestring(content);
         // Write back into file
         FileWriter fileWriter = new FileWriter(filepath);
         fileWriter.write(procecontent);
         fileWriter.close();
     }
 
-    private String replacewhole(String tmp) {
-        // Handle with first replace
-        if (firchoice) {
-            if (insenchoice)
-                tmp = tmp.replaceFirst("(?<!\\S)"+"(?i)"+fromside+"(?!\\S)", toside);
-            else
-                tmp = tmp.replaceFirst("(?<!\\S)"+fromside+"(?!\\S)", toside);
-            return tmp;
+
+    private void addregex() {
+        if (wildcar != null) {
+            char[] fromarray=fromside.toCharArray();
+            fromside="";
+            for(int i= 0; i< fromarray.length; i++){
+                if (fromarray[i] == wildcar){
+                    fromside +=".";
+                }
+                else
+                    fromside +=fromarray[i];
+            }
         }
-            // Handle replace
-        else {
-            if (insenchoice)
-                tmp = tmp.replaceAll("(?<!\\S)"+"(?i)"+fromside+"(?!\\S)", toside);
+        if (insenchoice)
+            fromside = "(?i)"+fromside;
+        if (wholechoice) {
+            if (delim == null)
+                fromside = "(?<!\\S)" + fromside + "(?!\\S)";
             else
-                tmp = tmp.replaceAll("(?<!\\S)"+fromside+"(?!\\S)", toside); //(?<!\\S)  (?!\\S)
-            return tmp;
+                fromside = "((?<!(.|\\n|\\r))|(?<=" + delim +"))" + fromside + "((?=" + delim + ")|(?!(.|\\n|\\r)))";
         }
     }
 
-    private String replacenonwhole(String tmp) {
-        // Handle with first replace
-        if (firchoice) {
-            if (insenchoice)
-                tmp = tmp.replaceFirst("(?i)"+fromside, toside);
-            else
-                tmp = tmp.replaceFirst(fromside, toside);
-            return tmp;
-        }
-        // Handle replace
-        else {
-            if (insenchoice)
-                tmp = tmp.replaceAll("(?i)"+fromside, toside);
-            else
-                tmp = tmp.replaceAll(fromside, toside);
-            return tmp;
-        }
+    private String replacestring(String tmp) {
+        if (firchoice)
+            tmp = tmp.replaceFirst(fromside, toside);
+        else
+            tmp = tmp.replaceAll(fromside, toside);
+        return tmp;
     }
+
 }

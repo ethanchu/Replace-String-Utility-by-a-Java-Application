@@ -121,9 +121,9 @@ Place all  of your tests in this class, possibly using MainTest.java as an examp
     public void replaceTest1() throws Exception {
         File inputFile1 = createInputFile1();
 
-        String args[] = { "-i", "Curry", inputFile1.getPath()};
+        String args[] = { "Curry", inputFile1.getPath()};
         Main.main(args);
-        assertEquals("Usage: Replace [-f] [-i] [-w] <from> <to> <filename>", errStream.toString().trim());
+        assertEquals("Usage: Replace [-f] [-i] [-w[char]] [-x[char]] <from> <to> <filename>", errStream.toString().trim());
     }
 
 
@@ -135,7 +135,7 @@ Place all  of your tests in this class, possibly using MainTest.java as an examp
 
         String args[] = { "-w", "Aldridge", "Curry", inputFile1.getPath()+"error_path"};
         Main.main(args);
-        assertEquals("Usage: Replace [-f] [-i] [-w] <from> <to> <filename>", errStream.toString().trim());
+        assertEquals("File Not Found", errStream.toString().trim());
     }
 
     // Purpose: When Length of [from]String is longer than the whole file, whether no pattern will be replaced in the file.
@@ -198,7 +198,7 @@ Place all  of your tests in this class, possibly using MainTest.java as an examp
 
         String args[] = { "f", "Aldridge", "Curry", inputFile1.getPath()};
         Main.main(args);
-        assertEquals("Usage: Replace [-f] [-i] [-w] <from> <to> <filename>", errStream.toString().trim());
+        assertEquals("Usage: Replace [-f] [-i] [-w[char]] [-x[char]] <from> <to> <filename>", errStream.toString().trim());
     }
 
     // Purpose:  When [from]String is multi-characters; both [from] and [to] String is no-whitepace,no-quotes presence and no enclosing quotes; file size is not empty;
@@ -516,9 +516,9 @@ Place all  of your tests in this class, possibly using MainTest.java as an examp
     public void replaceTest16() throws Exception {
         File inputFile1 = createInputFile1();
 
-        String args[] = { "-i", "LaMarcus", inputFile1.getPath()};
+        String args[] = { "LaMarcus", inputFile1.getPath()};
         Main.main(args);
-        assertEquals("Usage: Replace [-f] [-i] [-w] <from> <to> <filename>", errStream.toString().trim());
+        assertEquals("Usage: Replace [-f] [-i] [-w[char]] [-x[char]] <from> <to> <filename>", errStream.toString().trim());
     }
 
     // Purpose:

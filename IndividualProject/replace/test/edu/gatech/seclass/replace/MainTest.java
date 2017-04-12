@@ -98,6 +98,75 @@ public class MainTest {
         return file1;
     }
 
+    private File createInputFile4() throws Exception {
+        File file1 =  createTmpFile();
+        FileWriter fileWriter = new FileWriter(file1);
+
+        fileWriter.write("x-w|y-x|i-f|z-k\r" +
+                "i-f|x-w|y-x|z-k\r" +
+                "z-r|x-w|z-k|i-f");
+
+        fileWriter.close();
+        return file1;
+    }
+
+    private File createInputFile5() throws Exception {
+        File file = createTmpFile();
+        FileWriter fileWriter = new FileWriter(file);
+
+        fileWriter.write("");
+
+        fileWriter.close();
+        return file;
+    }
+
+    private File createInputFile6() throws Exception {
+        File file = createTmpFile();
+        FileWriter fileWriter = new FileWriter(file);
+
+        fileWriter.write("The goal here is to replace string \"-i\" with" + System.lineSeparator() +
+                "string \"-f\". Since we may also want to do multiple replacements," + System.lineSeparator() +
+                "we will repeat the two strings here: -i and -f");
+
+        fileWriter.close();
+        return file;
+    }
+
+    private File createInputFile7() throws Exception {
+        File file = createTmpFile();
+        FileWriter fileWriter = new FileWriter(file);
+
+        fileWriter.write("-- -- -- --");
+
+        fileWriter.close();
+        return file;
+    }
+
+    private File createInputFile8() throws Exception {
+        File file1 =  createTmpFile();
+        FileWriter fileWriter = new FileWriter(file1);
+
+        fileWriter.write("Mary had a csv,csv,csv\n" +
+                "Mary had a csv,commas, in a csv.\n" +
+                "csv,csv,csv");
+
+        fileWriter.close();
+        return file1;
+    }
+
+    private File createInputFile9() throws Exception {
+        File file1 =  createTmpFile();
+        FileWriter fileWriter = new FileWriter(file1);
+
+        fileWriter.write("There was a man with a bad reflex\n" +
+                "He made up tests that were too complex\n" +
+                "googolplexmetroplexmultiplex");
+
+        fileWriter.close();
+        return file1;
+    }
+
+
     private String getFileContent(String filename) {
         String content = null;
         try {
@@ -190,14 +259,394 @@ public class MainTest {
         assertEquals("The files differ!", expected3, actual3);
     }
 
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest5() throws Exception {
+        File inputFile2 = createInputFile2();
+
+        String args[] = {"-x", "-i", "xill", "Jill", inputFile2.getPath()};
+        Main.main(args);
+
+        String expected2 = "Jill is,\n" +
+                "in my opinion,\n" +
+                "an easier name to spell than Jilliam.\n" +
+                "Jill is shorter,\n" +
+                "and Jill is\n" +
+                "first alphabetically.";
+
+        String actual2 = getFileContent(inputFile2.getPath());
+
+        assertEquals("The files differ!", expected2, actual2);
+    }
+
 
     // Purpose: To provide an example of a test case format
     // Frame #: Instructor error example
     @Test
-    public void mainTest6() {
+    public void mainTest6() throws Exception {
         String args[] = null; //invalid argument
         Main.main(args);
-        assertEquals("Usage: Replace [-f] [-i] [-w] <from> <to> <filename>", errStream.toString().trim());
+        assertEquals("Usage: Replace [-f] [-i] [-w[char]] [-x[char]] <from> <to> <filename>", errStream.toString().trim());
     }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest7() throws Exception {
+        File inputFile9 = createInputFile9();
+
+        String args[] = {"-x", "q", "qlex", "Alex", inputFile9.getPath()};
+        String expected9 = "There was a man with a bad reAlex\n" +
+                "He made up tests that were too comAlex\n" +
+                "googolAlexmetroAlexmultiAlex";
+
+        Main.main(args);
+
+        String actual9 = getFileContent(inputFile9.getPath());
+
+        assertEquals("The files differ!", expected9, actual9);
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest8() throws Exception {
+        File inputFile8 = createInputFile8();
+
+        String args[] = {"-w", ",", "csv", "xml", inputFile8.getPath()};
+        Main.main(args);
+
+        String expected8 = "Mary had a csv,xml,csv\n" +
+                "Mary had a csv,commas, in a csv.\n" +
+                "csv,xml,xml";
+
+        String actual8 = getFileContent(inputFile8.getPath());
+
+        assertEquals("The files differ!", expected8, actual8);
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest9() throws Exception {
+        File inputFile7 = createInputFile7();
+
+        String args[] = {"-i", "--", "-i", inputFile7.getPath()};
+        Main.main(args);
+
+        String expected7 = "-i -i -i -i";
+
+        String actual7 = getFileContent(inputFile7.getPath());
+
+        assertEquals("The files differ!", expected7, actual7);
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest10() throws Exception {
+        File inputFile6 = createInputFile6();
+
+        String args[] = {"-w", "\"", "-x", "x", "-x", "-x", inputFile6.getPath()};
+        Main.main(args);
+
+        String expected6 = "The goal here is to replace string \"-x\" with" + System.lineSeparator() +
+                "string \"-x\". Since we may also want to do multiple replacements," + System.lineSeparator() +
+                "we will repeat the two strings here: -i and -f";
+
+        String actual6 = getFileContent(inputFile6.getPath());
+
+        assertEquals("The files differ!", expected6, actual6);
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest11() throws Exception {
+        File inputFile4 = createInputFile4();
+
+        String args[] = {"-i", "-x", "-w", inputFile4.getPath()};
+        Main.main(args);
+
+        String expected4 = "x-w|y-w|i-f|z-k\r" +
+                "i-f|x-w|y-w|z-k\r" +
+                "z-r|x-w|z-k|i-f";
+
+        String actual4 = getFileContent(inputFile4.getPath());
+
+        assertEquals("The files differ!", expected4, actual4);
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest12() throws Exception {
+        File inputFile5 = createInputFile5();
+
+        String args[] = {"Bill", "Jill", inputFile5.getPath()};
+        Main.main(args);
+
+        String expected5 = "";
+
+        String actual5 = getFileContent(inputFile5.getPath());
+
+        assertEquals("The files differ!", expected5, actual5);
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest13() throws Exception {
+        File inputFile2 = createInputFile2();
+
+        String args[] = {" ", "_", inputFile2.getPath()};
+        Main.main(args);
+
+        String expected2 = "Bill_is,\n" +
+                "in_my_opinion,\n" +
+                "an_easier_name_to_spell_than_William.\n" +
+                "Bill_is_shorter,\n" +
+                "and_Bill_is\n" +
+                "first_alphabetically.";
+
+        String actual2 = getFileContent(inputFile2.getPath());
+
+        assertEquals("The files differ!", expected2, actual2);
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest14() throws Exception {
+        File inputFile4 = createInputFile4();
+
+        String args[] = {"-f", "-w", "|", "x-w", "w-x", inputFile4.getPath()};
+        Main.main(args);
+
+        String expected4 = "w-x|y-x|i-f|z-k\r" +
+                "i-f|x-w|y-x|z-k\r" +
+                "z-r|x-w|z-k|i-f";
+
+        String actual4 = getFileContent(inputFile4.getPath());
+
+        assertEquals("The files differ!", expected4, actual4);
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest15() throws Exception {
+        File inputFile6 = createInputFile6();
+
+        String args[] = {"-i", "-i", "-i", "-i", "-k", inputFile6.getPath()};
+        Main.main(args);
+
+        String expected6 = "The goal here is to replace string \"-k\" with" + System.lineSeparator() +
+                "string \"-f\". Since we may also want to do multiple replacements," + System.lineSeparator() +
+                "we will repeat the two strings here: -k and -f";
+
+        String actual6 = getFileContent(inputFile6.getPath());
+
+        assertEquals("The files differ!", expected6, actual6);
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest16() throws Exception {
+        File inputFile2 = createInputFile2();
+
+        String args[] = {"-y", "qILL", "Jill", inputFile2.getPath()};
+        Main.main(args);
+
+        String expected2 = "Bill is,\n" +
+                "in my opinion,\n" +
+                "an easier name to spell than William.\n" +
+                "Bill is shorter,\n" +
+                "and Bill is\n" +
+                "first alphabetically.";
+
+        String actual2 = getFileContent(inputFile2.getPath());
+
+        assertEquals("The files differ!", expected2, actual2);
+        assertEquals("Usage: Replace [-f] [-i] [-w[char]] [-x[char]] <from> <to> <filename>", errStream.toString().trim());
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest17() throws Exception {
+        File inputFile2 = createInputFile2();
+
+        String args[] = {"Bill", "Ted", "--", inputFile2.getPath()};
+        Main.main(args);
+
+        String expected2 = "Bill is,\n" +
+                "in my opinion,\n" +
+                "an easier name to spell than William.\n" +
+                "Bill is shorter,\n" +
+                "and Bill is\n" +
+                "first alphabetically.";
+
+        String actual2 = getFileContent(inputFile2.getPath());
+
+        assertEquals("The files differ!", expected2, actual2);
+        assertEquals("Usage: Replace [-f] [-i] [-w[char]] [-x[char]] <from> <to> <filename>", errStream.toString().trim());
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest18() throws Exception {
+        File inputFile2 = createInputFile2();
+
+        String args[] = {"Bill", inputFile2.getPath()};
+        Main.main(args);
+
+        String expected2 = "Bill is,\n" +
+                "in my opinion,\n" +
+                "an easier name to spell than William.\n" +
+                "Bill is shorter,\n" +
+                "and Bill is\n" +
+                "first alphabetically.";
+
+        String actual2 = getFileContent(inputFile2.getPath());
+
+        assertEquals("The files differ!", expected2, actual2);
+        assertEquals("Usage: Replace [-f] [-i] [-w[char]] [-x[char]] <from> <to> <filename>", errStream.toString().trim());
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest19() throws Exception {
+        File inputFile6 = createInputFile6();
+
+        String args[] = {"-f", "-i", "-f", inputFile6.getPath()};
+        Main.main(args);
+
+        String expected6 = "The goal here is to replace string \"-f\" with" + System.lineSeparator() +
+                "string \"-f\". Since we may also want to do multiple replacements," + System.lineSeparator() +
+                "we will repeat the two strings here: -i and -f";
+
+        String actual6 = getFileContent(inputFile6.getPath());
+
+        assertEquals("The files differ!", expected6, actual6);
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest20() throws Exception {
+        File inputFile7 = createInputFile7();
+
+        String args[] = {"-w", "--", "!!", inputFile7.getPath()};
+        Main.main(args);
+
+        String expected7 = "!! !! !! !!";
+
+        String actual7 = getFileContent(inputFile7.getPath());
+
+        assertEquals("The files differ!", expected7, actual7);
+
+        String args2[] = {"-w", "!!", "%%", inputFile7.getPath()};
+        Main.main(args2);
+
+        expected7 = "%% %% %% %%";
+
+        actual7 = getFileContent(inputFile7.getPath());
+
+        assertEquals("The files differ!", expected7, actual7);
+    }
+
+
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest21() throws Exception {
+        File inputFile7 = createInputFile7();
+
+        String args[] = {" --", "##", inputFile7.getPath()};
+        Main.main(args);
+
+        String expected7 = "--######";
+
+        String actual7 = getFileContent(inputFile7.getPath());
+
+        assertEquals("The files differ!", expected7, actual7);
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest22() throws Exception {
+        File inputFile4 = createInputFile4();
+
+        String args[] = {"-w", "|", "x-w", "w-x", inputFile4.getPath()};
+        Main.main(args);
+
+        String expected4 = "w-x|y-x|i-f|z-k\r" +
+                "i-f|w-x|y-x|z-k\r" +
+                "z-r|w-x|z-k|i-f";
+
+        String actual4 = getFileContent(inputFile4.getPath());
+
+        assertEquals("The files differ!", expected4, actual4);
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest23() throws Exception {
+        File inputFile2 = createInputFile2();
+
+        String args[] = {"-x", "q", "-i", "qILL", "Jill", inputFile2.getPath()};
+        Main.main(args);
+
+        String expected2 = "Jill is,\n" +
+                "in my opinion,\n" +
+                "an easier name to spell than Jilliam.\n" +
+                "Jill is shorter,\n" +
+                "and Jill is\n" +
+                "first alphabetically.";
+
+        String actual2 = getFileContent(inputFile2.getPath());
+
+        assertEquals("The files differ!", expected2, actual2);
+
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest24() throws Exception {
+
+        String args[] = {"-x", "q", "-i", "qILL", "Jill", "doesnotexist.txt"};
+        Main.main(args);
+
+        assertEquals("File Not Found", errStream.toString().trim());
+    }
+
+    // Purpose: To provide an example of a test case format
+    // Frame #: Instructor example 5 from assignment directions
+    @Test
+    public void mainTest25() throws Exception {
+        File inputFile9 = createInputFile9();
+
+        String args[] = {"-x", "l", "llex", "Alex", inputFile9.getPath()};
+        String expected9 = "There was a man with a bad reAlex\n" +
+                "He made up tests that were too comAlex\n" +
+                "googolAlexmetroAlexmultiAlex";
+
+        Main.main(args);
+
+        String actual9 = getFileContent(inputFile9.getPath());
+
+        assertEquals("The files differ!", expected9, actual9);
+    }
+
+
 
 }
