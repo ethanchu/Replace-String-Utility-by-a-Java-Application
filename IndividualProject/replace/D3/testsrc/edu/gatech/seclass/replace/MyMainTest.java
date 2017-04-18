@@ -192,13 +192,23 @@ Place all  of your tests in this class, possibly using MainTest.java as an examp
 
     // Purpose: When OPT(-i or -w or -f) is exist and Dash (-) is not used in OPT, whether the output show error info
     // Frame #: Case8
-    // Type c: The file should not be replaced when the Dash(-) is forgotten to be used in OPT; should show the usage() information. The replace method still can identify "-f", even f is not corrected format
+
+    // Type c: The file should not be replaced when the Dash(-) is forgotten to be used in OPT; should show the usage() information.
+    // The replace method still can identify it as "-f", even it is not corrected format
     @Test
     public void replaceTest6() throws Exception {
         File inputFile1 = createInputFile1();;
-
         String args[] = { "f", "Aldridge", "Curry", inputFile1.getPath()};
         Main.main(args);
+
+        String expected1 = "LaMarcus Aldridge,\n" +
+                "Aldridge was cleared to return to full basketball activities\n" +
+                "He went through a bevy of tests\n" +
+                "The Spurs trail the Warriors by a half-game in the West.\n" +
+                "Aldridge was diagnosed with Wolff-Parkinson-White syndrome";
+
+        String actual1 = getFileContent(inputFile1.getPath());
+        assertEquals("The files differ!", expected1, actual1);
         assertEquals("Usage: Replace [-f] [-i] [-w[char]] [-x[char]] <from> <to> <filename>", errStream.toString().trim());
     }
 
@@ -1669,7 +1679,7 @@ Place all  of your tests in this class, possibly using MainTest.java as an examp
 
     }
 
-    // Type d: This is uncatched exception for Index Out of Bound.If the wildcard char is not in the from string, it causes the uncatched exception
+    // Type d: This is uncatched exception for Index Out of Bound.If the wildcard char is not in the from string, it causes the uncatched exception(Out of Index)
     @Test
     public void replaceTest37() throws Exception {
         File inputFile6 = createInputFile6_instr();
@@ -1685,8 +1695,8 @@ Place all  of your tests in this class, possibly using MainTest.java as an examp
         assertEquals("The files differ!", expected6, actual6);
     }
 
-    // Type d: For same OPT, the replace method is support to implement multiple declaration for the same OPT. But it seems that can only
-    // identify the first four OPT; For my testcase38, it cannont find the "-x" OPT.
+    // Type d: For same OPT, the replace method is support to implement multiple declaration for the same OPT. But it seems that can only identify the first four OPT;
+    // For my testcase38, it cannont find the "-x" OPT.
     @Test
     public void replaceTest38() throws Exception {
         File inputFile6 = createInputFile6_instr();
@@ -1811,7 +1821,8 @@ Place all  of your tests in this class, possibly using MainTest.java as an examp
         return file;
     }
 
-    // Type d: In line 2 the "var1" should not be replaced, since the delimiter is whitespace, not "\""
+    // Type d: In line 2 the "var1" should not be replaced, since the delimiter is whitespace and this var1 followed by "\"".
+    // Seems that the replace method dioesn't check the whitespace at the end of from string, when wildcard is existed and delimiter is whitespace.
     @Test
     public void replaceTest45() throws Exception {
         File inputFile6 = createInputFile6();
@@ -1827,7 +1838,8 @@ Place all  of your tests in this class, possibly using MainTest.java as an examp
         assertEquals("The files differ!", expected6, actual6);
     }
 
-    // Type d: In the end of file, "vap1" should also be replaced by "var2". Since wildcard is "r" and "vap1" right side is end of file(\Z) should also be the delimiter.
+    // Type d: In the end of file, the "vap1" should also be replaced by "var2". Since wildcard is "r" and the "vap1" right side is end of file(\Z) should also be the delimiter.
+    // Seems like the code cannot identify "\Z" for file ending, when wildcard is existed and have delimiter.
     @Test
     public void replaceTest46() throws Exception {
         File inputFile6 = createInputFile6();
@@ -1843,4 +1855,54 @@ Place all  of your tests in this class, possibly using MainTest.java as an examp
         assertEquals("The files differ!", expected6, actual6);
     }
 
+    private File createInputFile7() throws Exception {
+        File file = createTmpFile();
+        FileWriter fileWriter = new FileWriter(file);
+
+        fileWriter.write("var1. val1. vam1.\n"+
+                "var1,\" \"val1!\" \"vam1$\r" +
+                "\"vao1\" \"vap1");
+
+        fileWriter.close();
+        return file;
+    }
+    // Type d: The replace method seems use regex method to do the replacement, when use the keyword "." in the string, it seems indentify "." as any character.
+    @Test
+    public void replaceTest47() throws Exception {
+        File inputFile6 = createInputFile7();
+
+        String args[] = {"1.", "1,", inputFile6.getPath()};
+        Main.main(args);
+        String expected6 = "var1, val1, vam1,\n" +
+                "var1,\" \"val1!\" \"vam1$\r" +
+                "\"vao1\" \"vap1";
+
+        String actual6 = getFileContent(inputFile6.getPath());
+
+        assertEquals("The files differ!", expected6, actual6);
+    }
+
+    private File createInputFile8() throws Exception {
+        File file = createTmpFile();
+        FileWriter fileWriter = new FileWriter(file);
+
+        fileWriter.write("\\SuperBowl \\SuperJunior");
+
+        fileWriter.close();
+        return file;
+    }
+    // Type d: Another test to check whehter the replace method seems use regex method to do the replacement.
+    // when use the keyword "\S" in the string, it seems indentify "\S" as any non-whitespace character and replace all the non-whitespace characters to "S".
+    @Test
+    public void replaceTest48() throws Exception {
+        File inputFile6 = createInputFile8();
+
+        String args[] = {"\\S", "S", inputFile6.getPath()};
+        Main.main(args);
+        String expected6 = "SuperBowl SuperJunior";
+
+        String actual6 = getFileContent(inputFile6.getPath());
+
+        assertEquals("The files differ!", expected6, actual6);
+    }
 }
